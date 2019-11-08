@@ -1,5 +1,6 @@
 # labview-py-jsonparser
-LabVIEW json autoparser
+LabVIEW json autoparser \
+No need to set constant cluster before you read json file!! 
 
 # Requirements
 1. LabVIEW 2019 64bit or above
