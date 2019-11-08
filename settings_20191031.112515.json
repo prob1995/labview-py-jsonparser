@@ -1,0 +1,41 @@
+{
+    "Batch_size": 6,
+    "Data_Augmentation": {
+        "brightness_range": [
+            0.9,
+            1.1
+        ],
+        "channel_shift_range": 10,
+        "cval": 255,
+        "fill_mode": "constant",
+        "height_shift_range": 0.02,
+        "horizontal_flip": true,
+        "rotation_range": 10,
+        "shear_range": 5,
+        "vertical_flip": true,
+        "width_shift_range": 0.02,
+        "zoom_range": 0.1
+    },
+    "Debug_mode": 0,
+    "Default_Threshold": 0.45,
+    "Early_Stopping": {
+        "min_delta": 0.001,
+        "monitor": "val_loss",
+        "patience": 200
+    },
+    "Epochs": 3,
+    "Image_Height": 224,
+    "Image_Width": 224,
+    "Learning_Rate_Strategy": {
+        "First_Learning_Rate": 0.001,
+        "Learning_Rate": 0.0001,
+        "cooldown": 10,
+        "epsilon": 0.001,
+        "factor": 0.6,
+        "monitor": "val_loss",
+        "patience": 20,
+        "save_monitor": "val_loss"
+    },
+    "Model_Type": "smaai",
+    "Number_of_GPUs": 1
+}
